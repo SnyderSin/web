@@ -1,2 +1,2 @@
-FROM vishalgr/webapp
-ADD . /var/www/html
+FROM nginx:alpine
+ADD . /usr/share/nginx/html
